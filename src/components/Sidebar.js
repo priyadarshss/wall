@@ -8,7 +8,7 @@ import C1 from '../assets/SidebarCards/c1.svg'
 import C2 from '../assets/SidebarCards/c2.svg'
 import C3 from '../assets/SidebarCards/c3.svg'
 import C4 from '../assets/SidebarCards/c4.svg'
-import Arrow from '../assets/Arrow.svg'
+import Arrow from '../assets/arrow.svg'
 
 const Sidebar = () => {
   const acc = '0xadgfa0dfcheu47fh3h1j91cc2bcda29a6edzjkld'
