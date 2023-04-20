@@ -19,14 +19,13 @@ export default function Home() {
           justifyContent: 'center',
           alignItems: 'center',
         }}
-        spacing={2}
       >
         {/* Sidebar */}
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={3} sx={{ display: 'flex', justifyContent: 'center'}}>
           <Sidebar />
         </Grid>
         <Grid item xs={12} sm={9}>
-          <Grid item sx={{ display: 'flex', flexDirection: 'column' }}>
+          <Grid item sx={{ display: 'flex', flexDirection: 'column'}}>
             {/* Displaying highlight cards based on data from JSON file */}
             <Grid sx={{ display: 'flex', flexWrap: 'wrap' }}>
               {data2.map((item, index) => {
